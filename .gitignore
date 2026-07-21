@@ -17,3 +17,7 @@
 
 # Ignorar logs internos si existen
 .obsidian/logs/
+
+# Biblioteca local: las notas citan estas fuentes, pero los binarios no se publican.
+sources/*
+!sources/README.md
