@@ -1,5 +1,5 @@
-# Biblioteca local
+# Biblioteca privada respaldada con LFS
 
-Coloque aquí artículos, libros, datasheets y tablas de apoyo. El contenido de esta carpeta se ignora deliberadamente y no se sube a GitHub.
+Los artículos, libros, datasheets y tablas de apoyo de esta carpeta se indexan como punteros Git LFS. Los bytes se guardan en el folderstore privado de OneDrive y no en GitHub.
 
-Al migrar desde el antiguo monorepo, copie el contenido de `Obsidian Vault/sources` a esta carpeta. Las notas conservan sus enlaces relativos originales.
+Después de un clon sin contenido LFS, ejecute `../scripts/configure-lfs-folderstore.ps1` y luego `../scripts/hydrate-lfs.ps1 -All`, o seleccione solamente una subcarpeta con `-Include`. Las notas conservan sus enlaces relativos originales.

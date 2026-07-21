@@ -18,6 +18,4 @@
 # Ignorar logs internos si existen
 .obsidian/logs/
 
-# Biblioteca local: las notas citan estas fuentes, pero los binarios no se publican.
-sources/*
-!sources/README.md
+# Los binarios de sources/ se versionan mediante Git LFS y viven en el folderstore.
