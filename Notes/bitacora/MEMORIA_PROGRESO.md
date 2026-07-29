@@ -8,12 +8,12 @@ metadata:
 # Estado del Loop de Bitácora
 
 ## Último día procesado
-`2026-07-26`
+`2026-07-29`
 
 ## Próximo día a procesar
-`(ninguno pendiente — verificar con git log en la próxima corrida)`
+(pendiente de detectar — buscar siguiente commit de tesis posterior a 2026-07-29)
 
-## Lista completa de días (47 días únicos, ~280 commits aprox.)
+## Lista completa de días (45 días únicos, 230 commits aprox.)
 
 | # | Fecha | Commits | Estado |
 |---|-------|---------|--------|
@@ -67,11 +67,21 @@ metadata:
 | 48 | 2026-06-26 | 2 | ✅ HECHO |
 | 49 | 2026-06-30 | 2 | ✅ HECHO |
 | 50 | 2026-07-01 | 5 | ✅ HECHO |
-| 51 | 2026-07-21 | ~17 (modularización + submódulos) | ✅ HECHO |
-| 52 | 2026-07-23 | 3 (recalibración + revisión paper URUCOM) | ✅ HECHO |
-| 53 | 2026-07-24 | ~35 (modo ENLACE + servidor FastAPI) | ✅ HECHO |
-| 54 | 2026-07-25 | 11 (port_loop autónomo, noche 1) | ✅ HECHO |
-| 55 | 2026-07-26 | 5 (port_loop: Waterfall f-k + MASW) | ✅ HECHO |
+| 51 | 2026-07-02 | 4 | ✅ HECHO |
+| 52 | 2026-07-07 | 5 | ✅ HECHO |
+| 53 | 2026-07-08 | 3 | ✅ HECHO |
+| 54 | 2026-07-09 | 3 | ✅ HECHO |
+| 55 | 2026-07-11 | 15 | ✅ HECHO |
+| 56 | 2026-07-12 | 18 | ✅ HECHO |
+| 57 | 2026-07-15 | 2 | ✅ HECHO |
+| 58 | 2026-07-16 | 3 | ✅ HECHO |
+| 59 | 2026-07-20 | 2 (+1 housekeeping, +2 sin contenido) | ✅ HECHO |
+| 60 | 2026-07-21 | 5 ingeniería (+11 infra modularize/LFS en 7 submódulos nuevos) | ✅ HECHO |
+| 61 | 2026-07-23 | 4 (1 super + 3 submódulos: docs/psoc/matlab) | ✅ HECHO |
+| 62 | 2026-07-24 | 5 super + 12 submódulos (reorganización src/ por propósito, investigacion→docs, plan conectividad ENLACE) | ✅ HECHO |
+| 63 | 2026-07-25 | 5 (submódulo interfaces/python: fix gate, port §1 FastAPI, §2 tabs/tema, docs §3.2, §3.1 visor señal) | ✅ HECHO |
+| 64 | 2026-07-26 | 1 (submódulo docs: snapshot congelado de field_review_app antes de portar ventana Capturas) | ✅ HECHO |
+| 65 | 2026-07-29 | 3 (interfaces/python: cuarentena reversible, AnalysisJobs, gate 58/58; docs: cierre revisión URUCOM 2026; data: resultados MASW Canchita) | ✅ HECHO |
 
 ## Instrucciones para el loop
 

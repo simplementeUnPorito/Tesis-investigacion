@@ -77,11 +77,21 @@ Este índice agrupa todas las entradas de la bitácora por etapa del proyecto.
 |-------|---------|-------------|
 | 2026-06-03 | [[2026-06-03]] | Beacon fix 10Hz, VER store-and-forward, PSoC probe, UART 115200 → "Locura funciona super bien" |
 | 2026-06-04 | [[2026-06-04]] | Workspace Martillo_ESP.cydsn — nodo PSoC+ESP para martillo de impacto |
-| 2026-07-21 | [[2026-07-21]] | Ruptura arquitectónica: monolito → superproyecto modular con submódulos + refactor analógico PSoC |
-| 2026-07-23 | [[2026-07-23]] | Segunda vuelta de calibración + revisión honesta del paper URUCOM con el tutor |
-| 2026-07-24 | [[2026-07-24]] | Conectividad de campo: modo ENLACE ESP32 + servidor FastAPI, arranca port_loop.py |
-| 2026-07-25 | [[2026-07-25]] | port_loop autónomo noche 1: rate limits, auto-corrección, §1 y §2 del PORT_PLAN |
-| 2026-07-26 | [[2026-07-26]] | port_loop fin de semana: Waterfall f-k + primera etapa MASW en la web |
+| 2026-07-02 | [[2026-07-02]] | Nace `superMaquina`: captura migra de C a máquina de estados en hardware (Verilog) |
+| 2026-07-07 | [[2026-07-07]] | Fs a 1020 Hz, dos rangos de ADC, circuit-breaker de tormenta de IRQ, arranque del pipeline MASW en Python |
+| 2026-07-08 | [[2026-07-08]] | ADC de 2 a 4 rangos, RSSI de enlace en la web, doce fases de pulido en la revisión de campo + inversión MASW multimodal |
+| 2026-07-09 | [[2026-07-09]] | Auditoría autocrítica (4 bugs corregidos), polaridad de geófono, enfase por carpeta, grupos de dispersión con combinación ponderada |
+| 2026-07-11 | [[2026-07-11]] | Auditoría pre-campo: SD en PSoC validada en hardware real, fix de carrera en captura por USB, bug crítico F1 (aceptación 10 min, 0 muestras) encontrado y corregido en vivo |
+| 2026-07-12 | [[2026-07-12]] | Cierre de la ampliación E12-E18 (todo PASS), bugs críticos F5 (dump colgado por socket zombie) y F9 (START rompía el nodo — race PRESTART/PSoC ARMED), regenerado FIR en PSoC |
+| 2026-07-15 | [[2026-07-15]] | Paper Urucom: Secc. III/IV reescritas con datos reales (2 placas, barrido de ganancia), auto-revisión editorial simulada, flag `CAL_PI_FORCE_MIN_DEADBAND` para el experimento del estancamiento del PGA |
+| 2026-07-16 | [[2026-07-16]] | Respuesta a la auto-revisión: 7 referencias nuevas, tabla de resultados con las 4 etapas, ecuaciones de banda muerta, corrección de honestidad sobre "Default" |
+| 2026-07-20 | [[2026-07-20]] | Renombre GEO_ADDER→GEO_SUM en `psoc` (recalibración ganancia PI ×2.63, banda muerta configurable por etapa) + protocolo de barridos de la cadena analógica en `matlab` (zeta real del compensador ≈83.661 vs. objetivo 0.25) |
+| 2026-07-21 | [[2026-07-21]] | Ruptura arquitectónica: monolito → superproyecto con 7 submódulos (root commit sin padres, LFS folder-backed); refactor AMux dedicados por etapa en `psoc` (`PGAshield`→`PGAout`, `LPF_2` activado) y modelo de circuito calibrado con `Ru=6.8kΩ` real en `matlab` |
+| 2026-07-23 | [[2026-07-23]] | Paper URUCOM: compresión 6→5 páginas, panel de revisión simulado (Minor Revision, ≈65/100), sign test p≈10⁻³, reunión con el tutor; figura GEO→ADC side-by-side nueva en `matlab`; commit de `psoc` es solo regeneración de IDE |
+| 2026-07-24 | [[2026-07-24]] | `src/` se reorganiza por propósito (no lenguaje): 6 submódulos (firmware/interfaces/calculos_modelados), 2 repos nuevos vía `subtree split`, `investigacion` migra a `docs/investigacion`; sketch `MasterFoo` valida hotspot del celular + plan de conectividad modo ENLACE del maestro |
+| 2026-07-25 | [[2026-07-25]] | Arranca el PORT_PLAN del servidor `interfaces/python`: fix de gate (pipe de subprocess sin lector), migración a FastAPI + estáticos, tabs de navegación y toggle de tema, aclaración doc de las 4 funciones de filtrado, visor de señal con decimado min/max |
+| 2026-07-26 | [[2026-07-26]] | Snapshot de referencia congelado de la app PyQt `field_review_app` en `docs/legacy/pyqt_field_review/`, con mapa de líneas de la ventana Capturas, antes de portarla entera a la web |
+| 2026-07-29 | [[2026-07-29]] | Commit consolidado "Diseños 3d" (trabajo real del 26-27/07): cuarentena reversible en `deletion.py`, cola `AnalysisJobs`, gate `smoke_test.py` 58/58 checks; cierre de revisión URUCOM 2026 (IEEE membership, bibliografía BibTeX compartida) |
 
 ---
 
