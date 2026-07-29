@@ -77,6 +77,11 @@ Este índice agrupa todas las entradas de la bitácora por etapa del proyecto.
 |-------|---------|-------------|
 | 2026-06-03 | [[2026-06-03]] | Beacon fix 10Hz, VER store-and-forward, PSoC probe, UART 115200 → "Locura funciona super bien" |
 | 2026-06-04 | [[2026-06-04]] | Workspace Martillo_ESP.cydsn — nodo PSoC+ESP para martillo de impacto |
+| 2026-07-21 | [[2026-07-21]] | Ruptura arquitectónica: monolito → superproyecto modular con submódulos + refactor analógico PSoC |
+| 2026-07-23 | [[2026-07-23]] | Segunda vuelta de calibración + revisión honesta del paper URUCOM con el tutor |
+| 2026-07-24 | [[2026-07-24]] | Conectividad de campo: modo ENLACE ESP32 + servidor FastAPI, arranca port_loop.py |
+| 2026-07-25 | [[2026-07-25]] | port_loop autónomo noche 1: rate limits, auto-corrección, §1 y §2 del PORT_PLAN |
+| 2026-07-26 | [[2026-07-26]] | port_loop fin de semana: Waterfall f-k + primera etapa MASW en la web |
 
 ---
 

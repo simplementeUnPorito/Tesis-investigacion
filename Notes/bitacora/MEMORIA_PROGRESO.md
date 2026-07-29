@@ -8,12 +8,12 @@ metadata:
 # Estado del Loop de Bitácora
 
 ## Último día procesado
-`2026-07-01`
+`2026-07-26`
 
 ## Próximo día a procesar
 `(ninguno pendiente — verificar con git log en la próxima corrida)`
 
-## Lista completa de días (42 días únicos, 220 commits aprox.)
+## Lista completa de días (47 días únicos, ~280 commits aprox.)
 
 | # | Fecha | Commits | Estado |
 |---|-------|---------|--------|
@@ -67,6 +67,11 @@ metadata:
 | 48 | 2026-06-26 | 2 | ✅ HECHO |
 | 49 | 2026-06-30 | 2 | ✅ HECHO |
 | 50 | 2026-07-01 | 5 | ✅ HECHO |
+| 51 | 2026-07-21 | ~17 (modularización + submódulos) | ✅ HECHO |
+| 52 | 2026-07-23 | 3 (recalibración + revisión paper URUCOM) | ✅ HECHO |
+| 53 | 2026-07-24 | ~35 (modo ENLACE + servidor FastAPI) | ✅ HECHO |
+| 54 | 2026-07-25 | 11 (port_loop autónomo, noche 1) | ✅ HECHO |
+| 55 | 2026-07-26 | 5 (port_loop: Waterfall f-k + MASW) | ✅ HECHO |
 
 ## Instrucciones para el loop
 
