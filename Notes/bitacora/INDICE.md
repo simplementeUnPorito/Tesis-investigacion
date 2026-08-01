@@ -92,6 +92,7 @@ Este índice agrupa todas las entradas de la bitácora por etapa del proyecto.
 | 2026-07-25 | [[2026-07-25]] | Arranca el PORT_PLAN del servidor `interfaces/python`: fix de gate (pipe de subprocess sin lector), migración a FastAPI + estáticos, tabs de navegación y toggle de tema, aclaración doc de las 4 funciones de filtrado, visor de señal con decimado min/max |
 | 2026-07-26 | [[2026-07-26]] | Snapshot de referencia congelado de la app PyQt `field_review_app` en `docs/legacy/pyqt_field_review/`, con mapa de líneas de la ventana Capturas, antes de portarla entera a la web |
 | 2026-07-29 | [[2026-07-29]] | Commit consolidado "Diseños 3d" (trabajo real del 26-27/07): cuarentena reversible en `deletion.py`, cola `AnalysisJobs`, gate `smoke_test.py` 58/58 checks; cierre de revisión URUCOM 2026 (IEEE membership, bibliografía BibTeX compartida) |
+| 2026-08-01 | [[2026-08-01]] | "Se me acaba la bateria aaaa": pinout PSoC↔ESP32 migra a carrier intermedia (CY8CKIT-059+DevKitC) con verificación por script; arranca el martillo de leva en Simscape Multibody y Python (ambos detectan errores propios: interferencia axial leva-brazo y violación de energía); ajuste de fase en figura de auto-calibración URUCOM |
 
 ---
 
