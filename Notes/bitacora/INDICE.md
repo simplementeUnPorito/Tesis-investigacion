@@ -3,8 +3,8 @@
 
 > **Autor:** Elías David Álvarez  
 > **Repo:** [simplementeUnPorito/Tesis](https://github.com/simplementeUnPorito/Tesis)  
-> **Período:** Febrero – Junio 2026  
-> **Total de commits:** ~200 | **Días de trabajo activo:** 33
+> **Período:** Febrero – Septiembre 2026
+> **Total de commits:** >230 | **Días documentados:** 67
 
 ---
 
@@ -71,7 +71,7 @@ Este índice agrupa todas las entradas de la bitácora por etapa del proyecto.
 
 ---
 
-## Etapa 5 — Producción y Debug Fino (Jun 2026)
+## Etapa 5 — Producción y Debug Fino (Jun–Aug 2026)
 
 | Fecha | Archivo | Descripción |
 |-------|---------|-------------|
@@ -93,6 +93,14 @@ Este índice agrupa todas las entradas de la bitácora por etapa del proyecto.
 | 2026-07-26 | [[2026-07-26]] | Snapshot de referencia congelado de la app PyQt `field_review_app` en `docs/legacy/pyqt_field_review/`, con mapa de líneas de la ventana Capturas, antes de portarla entera a la web |
 | 2026-07-29 | [[2026-07-29]] | Commit consolidado "Diseños 3d" (trabajo real del 26-27/07): cuarentena reversible en `deletion.py`, cola `AnalysisJobs`, gate `smoke_test.py` 58/58 checks; cierre de revisión URUCOM 2026 (IEEE membership, bibliografía BibTeX compartida) |
 | 2026-08-01 | [[2026-08-01]] | "Se me acaba la bateria aaaa": pinout PSoC↔ESP32 migra a carrier intermedia (CY8CKIT-059+DevKitC) con verificación por script; arranca el martillo de leva en Simscape Multibody y Python (ambos detectan errores propios: interferencia axial leva-brazo y violación de energía); ajuste de fase en figura de auto-calibración URUCOM |
+
+---
+
+## Etapa 6 — Puesta en marcha de la placa (Sep 2026)
+
+| Fecha | Archivo | Descripción |
+|-------|---------|-------------|
+| 2026-09-01 | [[2026-09-01]] | Primera placa digital APTA: I2C, UART, SYNC, captura E2E, SD y cinco botones; autotest usable, programación ECC 4×256 corregida y watchdog de ARMED |
 
 ---
 
