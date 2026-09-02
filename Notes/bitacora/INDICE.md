@@ -101,6 +101,7 @@ Este índice agrupa todas las entradas de la bitácora por etapa del proyecto.
 | Fecha | Archivo | Descripción |
 |-------|---------|-------------|
 | 2026-09-01 | [[2026-09-01]] | Primera placa digital APTA: I2C, UART, SYNC, captura E2E, SD y cinco botones; autotest usable, programación ECC 4×256 corregida y watchdog de ARMED |
+| 2026-09-02 | [[2026-09-02]] | Auditoría documental del superproyecto: inventario de 11 repositorios, rutas/arquitectura corregidas, catálogo de datos ampliado y gate Markdown sin enlaces rotos |
 
 ---
 

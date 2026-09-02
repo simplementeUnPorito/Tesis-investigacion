@@ -8,10 +8,10 @@ metadata:
 # Estado del Loop de Bitácora
 
 ## Último día procesado
-`2026-09-01`
+`2026-09-02`
 
 ## Próximo día a procesar
-(pendiente de detectar — buscar siguiente jornada posterior a 2026-09-01)
+(pendiente de detectar — buscar siguiente jornada posterior a 2026-09-02)
 
 ## Lista completa de días (67 días documentados, más de 230 commits)
 
@@ -84,6 +84,7 @@ metadata:
 | 65 | 2026-07-29 | 3 (interfaces/python: cuarentena reversible, AnalysisJobs, gate 58/58; docs: cierre revisión URUCOM 2026; data: resultados MASW Canchita) | ✅ HECHO |
 | 66 | 2026-08-01 | 5 (psoc: pinout→carrier intermedia + tooling; esp32 rama cambios-red: pinout espejo; matlab: martillo de leva Simscape con interferencia detectada; python: martillo de leva 2D con criterio de suelta; docs: fase FIR en figura URUCOM) | ✅ HECHO |
 | 67 | 2026-09-01 | Puesta en marcha digital: ESP32/PSoC autotest, tres contactos marginales aislados, SD y botones validados, programación ECC corregida, watchdog ARMED y documentación | ✅ HECHO |
+| 68 | 2026-09-02 | Scrapeo documental: 11 repositorios inventariados, entrypoints y arquitectura actualizados, catálogo de datos corregido, auditor Markdown agregado | ✅ HECHO |
 
 ## Instrucciones para el loop
 
