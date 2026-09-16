@@ -102,6 +102,7 @@ Este índice agrupa todas las entradas de la bitácora por etapa del proyecto.
 |-------|---------|-------------|
 | 2026-09-01 | [[2026-09-01]] | Primera placa digital APTA: I2C, UART, SYNC, captura E2E, SD y cinco botones; autotest usable, programación ECC 4×256 corregida y watchdog de ARMED |
 | 2026-09-02 | [[2026-09-02]] | Auditoría documental del superproyecto: inventario de 11 repositorios, rutas/arquitectura corregidas, catálogo de datos ampliado y gate Markdown sin enlaces rotos |
+| 2026-09-16 | [[2026-09-16]] | Síntesis 03–16/09: autocalibración de la cadena GEO, ganancia 96 sostenida (PGA ×4 · PGAout ×24), firmware PSoC unificado con PI permanente, telemetría I2C que perturba la cadena y modo estable |
 
 ---
 
